@@ -43,7 +43,7 @@ function reduce(data){
 	var Author=data.Author;
 	var Datecreated=data.Datecreated;
 	var content=data.content;
-	var htmltemplate = '
+	var htmltemplate = `
 	                   <html>
                              <head>
                                  <title>
@@ -62,7 +62,7 @@ function reduce(data){
                             </p>
                             </div> 
                             </body>
-                        </html> ';
+                        </html> `;
             return htmltemplate;
 }
 
