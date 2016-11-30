@@ -38,11 +38,12 @@ var articles={
 		
 	 },
 };
-function createTemplate (data) {
-	var title = data.title;
-	
+    var title = data.title;
+	var Author = data.Author;
 	var Datecreated = data.Datecreated;
 	var content = data.content;
+function createTemplate (data) {
+	
 	var htmlTemplate = `
 	                   <html>
                              <head>
