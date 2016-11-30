@@ -7,7 +7,9 @@ body {
 .left {
     text-align: left;
 }
-
+form{
+    margin-left:50px;
+}
 
 
 .bold {
