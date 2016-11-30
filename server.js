@@ -39,7 +39,7 @@ var articles={
 	 },
 };
 function createTemplate (data) {
-	
+	var title =data.title;
 	var Author = data.Author;
 	var Datecreated = data.Datecreated;
 	var content = data.content;
@@ -47,7 +47,7 @@ function createTemplate (data) {
 	                   <html>
                              <head>
                                  <title>
-                                    ard
+                                    ${title}
                                 </title>
                                 <meta name="viewport" content="width=device-width,initial-scale=1"/>
                                 <link href="/ui/style.css", rel="stylesheet"/>
