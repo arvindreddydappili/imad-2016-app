@@ -36,7 +36,7 @@ var articles={
 		
 	 },
 };
-    
+  var data=object.create(createTemplte.prototype); 
 function createTemplate ( data ) {
 	var title = data.title;
 	var Author = data.Author;
