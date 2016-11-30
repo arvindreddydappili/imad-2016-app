@@ -37,7 +37,7 @@ var articles={
 		content:"This is going to be first articleThis is going to be first article"
 		
 	 }
-}
+};
 function reduce(data){
 	var title=data.title;
 	var Author=data.Author;
