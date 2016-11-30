@@ -20,23 +20,23 @@ var articles={
 		title:'articletwo|Ard',
 		Author:'Ard',
 		Datecreated:'Nov/18/16',
-		content:"This is going to be first articleThis is going to be first article"
+		content:"This is going to be second article This is going to be second article"
 		
 	},
 	 'var article-three':{
 		 title:'articlethree|Ard',
 		Author:'Ard',
 		Datecreated:'Nov/19/16',
-		content:"This is going to be first articleThis is going to be first article"
+		content:"This is going to be second article This is going to be third article"
 		
 	 },
 	 'var article-four':{
 		 title:'articlefour|Ard',
 		Author:'Ard',
 		Datecreated:'Nov/20/16',
-		content:"This is going to be first articleThis is going to be first article"
+		content:"This is going to be fourth article This is going to be fourth article"
 		
-	 }
+	 },
 };
 function reduce(data){
 	var title=data.title;
@@ -49,6 +49,8 @@ function reduce(data){
                                  <title>
                                      ${title}
                                 </title>
+                                <meta name="viewport" content="width=device-width,initial-scale=1"/>
+                                <link href="/ui/style.css", rel="stylesheet"/>
                             </head>
                             <body>
                             <a href="/">home</a>
