@@ -39,10 +39,10 @@ var articles={
 	 },
 };
 function reduce(data){
-	var title=data.title;
-	var Author=data.Author;
-	var Datecreated=data.Datecreated;
-	var content=data.content;
+	var title = data.title;
+	var Author = data.Author;
+	var Datecreated = data.Datecreated;
+	var content = data.content;
 	var htmltemplate = `
 	                   <html>
                              <head>
@@ -65,7 +65,7 @@ function reduce(data){
                             </div> 
                             </body>
                         </html> `;
-            return htmltemplate;
+            return htmlTemplate;
 }
 
 app.get('/:articleName',function(req,res){
