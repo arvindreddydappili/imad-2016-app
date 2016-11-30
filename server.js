@@ -68,7 +68,7 @@ function reduce(data){
 
 app.get('/:articleName',function(req,res){
 	var articleName = req.params.articleName;
-	res.send(reduce(articles(articleName)));
+	res.send(reduce(articles[articleName]));
 }
 );
 
