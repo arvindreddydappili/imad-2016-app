@@ -40,7 +40,7 @@ var articles={
 };
 function createTemplate (data) {
 	var title = data.title;
-	var Author = data.Author;
+	
 	var Datecreated = data.Datecreated;
 	var content = data.content;
 	var htmlTemplate = `
