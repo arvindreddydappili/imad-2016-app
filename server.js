@@ -38,12 +38,12 @@ var articles={
 		
 	 },
 };
-function reduce(data){
+function createTemplate (data) {
 	var title = data.title;
 	var Author = data.Author;
 	var Datecreated = data.Datecreated;
 	var content = data.content;
-	var htmltemplate = `
+	var htmlTemplate = `
 	                   <html>
                              <head>
                                  <title>
@@ -70,7 +70,7 @@ function reduce(data){
 
 app.get('/:articleName',function(req,res){
 	var articleName = req.params.articleName;
-	res.send(reduce(articles[articleName]));
+	res.send(createTemplate(articles[articleName]));
 }
 );
 
