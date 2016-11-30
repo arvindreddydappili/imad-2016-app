@@ -36,7 +36,7 @@ var articles={
 		
 	 },
 };
-  var data=object.create(createTemplte.prototype); 
+  
 function createTemplate ( data ) {
 	var title = data.title;
 	var Author = data.Author;
@@ -75,7 +75,9 @@ app.get('/:articleName',function(req,res){
 	res.send(createTemplate(articles[articleName]));
 });
 
-
+app.get('loginform.html',function(req,res){
+    res.send('loginform.html');
+});
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
