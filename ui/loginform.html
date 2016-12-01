@@ -5,20 +5,36 @@
         Login/SignUp!
     </title>
   </head>
-           
-      <p>Enter UserName:</p>
-      <input type="text" name="UserName" size="5" maxlengt="10"/>
-      <p>Enter Password:</p>
-      <input type="password" name="PassWord" size="5" maxlength="10"/><br>
-       <input type="radio" name="sex" value="Male" checked="checked"/>Male
-			 <input type="radio" name="sex" value="Female"/>Female
-			 <div class="dob">
-			  <br/>enter your Date Of Birth:
-			 <select id="date" name="m">
-			 <option id="dd" value='id'>d</option>
+  
+  <div class="seachb">
+      <input type="text" name="search"/>
+      <input type="submit" name="search" action="www.google.com" />
+  </div>
+  
+  <form action="arvindreddydappili.imad.hasura-app.io/test-db" method="get">
+    <label type="email" name="email">Enter your email</label>       
+    <input type="email" name="email"/>
+    
+    <p>Enter UserName:</p>
+    
+    <input type="text" name="UserName" size="5" maxlengt="10"/>
+        
+        
+    <p>Enter Password:</p>
+    <input type="password" name="PassWord" size="5" maxlength="10"/><br>
+            
+    <input type="radio" name="sex" value="Male" checked="checked"/>Male
 			 
-			 </select>
+	<input type="radio" name="sex" value="Female"/>Female
+			
+	<div class="dob">
+	<br/>
+		
+			<label for="username">Date of Birth:</label>
+			<input type="date" name="birth"/>
+			<input type="submit" value="submit"/>
 			 </div>
+    </form>
         <script type="text/javascript" src="ui/loginjs.js" >
             
         </script>  
