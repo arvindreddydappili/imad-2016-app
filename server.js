@@ -12,7 +12,7 @@ app.get('/', function (req, res) {
 });
 
 
-app.get('loginform.html',function(req,res){
+app.get('/ui/loginform.html',function(req,res){
     res.sendFile(path.join(_dirname,'ui','loginform.html'));
 });
 
