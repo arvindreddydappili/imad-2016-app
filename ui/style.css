@@ -26,6 +26,13 @@ form{
 }
 
 .dob{
+    width:100px;
     background-color:steelblue;
     
+}
+
+.searchb{
+    text-align:right;
+    background-color:inherit;
+    width:500px;
 }
