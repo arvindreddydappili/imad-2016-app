@@ -16,6 +16,7 @@ body {
     min-width:500px;
     max-width:750px;
     padding:50px;
+    border-width:2px;
     
 }
 
@@ -29,10 +30,10 @@ form{
 
 .login{
     width:100px;
-    height:50px;
+    height:25px;
     background-color:steelblue;
-    opacity:100;
-    text-align:right;
+    opacity:500;
+    text-align:center;
     margin-left:75%;
     
 }
