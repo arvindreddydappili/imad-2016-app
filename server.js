@@ -24,16 +24,6 @@ app.get('/login-db',function(req,res){
     });
 });
 
-var up = {
-    references : {
-        
-        title : 'reference',
-        content:'making this whole web app '
-        
-        
-    },
-};
-
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
